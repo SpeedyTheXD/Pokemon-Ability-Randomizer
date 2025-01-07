@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cstdlib>
+#include <filesystem>
 #include <vector>
 #include <fstream>
 #include <string>
@@ -9,7 +10,13 @@ const int MAX = 500;
 
 void update_ability_file()
 {
-    system("python ./ability_updater.py");
+    // string exe_path = filesystem::current_path().string();
+    // string python_path = exe_path + "/source/ability_updater.py";
+    // string command = "python \"" + python_path + "\"";
+
+    // system(command.c_str());
+
+    system("python ability_updater.py");
 }
 
 void save_ability(string file_name, vector<string> &list)
