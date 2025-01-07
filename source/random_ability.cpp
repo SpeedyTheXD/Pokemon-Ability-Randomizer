@@ -13,8 +13,7 @@ void update_ability_file()
     // string exe_path = filesystem::current_path().string();
     // string python_path = exe_path + "/source/ability_updater.py";
     // string command = "python \"" + python_path + "\"";
-
-    // system(command.c_str());
+    // system(command.c_str());     *This method is for trying to change exe file location*
 
     system("python ability_updater.py");
 }
