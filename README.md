@@ -6,6 +6,7 @@ _just a program that generates random pokemon ability_
 
 - Quick, easy
 - Cross-platform
+- Auto-update the abilities
 
 ## Installation
 
